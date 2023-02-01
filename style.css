@@ -1,7 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 
-
+head, body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray
+}
 
 
 
@@ -10,17 +15,60 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 300px;
-    padding: 5px;
 }
 
 header h1 {
+    padding-top: 50px;
     font-family: 'Passion One', cursive;
-    font-size: 120px;
-    
+    font-variant: small-caps;
+    margin: 0px;
 }
-header a {
+
+header p {
+    padding-bottom: 50px;
+    margin: 0px
+}
+
+a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.paralax > p {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 200px;
+
+}
+
+.fundobranco {
+    background-color: white;
+    color: black;
+}
+
+.paralax {
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 9px;
 }
