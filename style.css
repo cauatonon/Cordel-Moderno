@@ -12,6 +12,7 @@ head, body {
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font: 'Sriracha', cursive;
+    --font3: 'Passion one', cursive;
 }
 
 
@@ -26,6 +27,7 @@ header h1 {
     font-family: 'Passion One', cursive;
     font-variant: small-caps;
     margin: 0px;
+    font-size: 10vw;
 }
 
 header p {
@@ -48,11 +50,14 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font);
+    font-size: 3vw;
 }
 
 section.paralax > p {
     background-color: rgba(0, 0, 0, 0.253);
-    width: 200px;
+    display: inline-block;
+    padding: 5px;
 
 }
 
